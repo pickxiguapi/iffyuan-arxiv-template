@@ -1,0 +1,96 @@
+\documentclass[11pt,letterpaper]{iffyuan}
+
+% ============================================================================
+% Additional packages (add project-specific packages here)
+% ============================================================================
+\usepackage[all]{hypcap}
+\bibliographystyle{plainnat}
+
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{nicefrac}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{xspace}
+\usepackage{tikz}
+\usepackage{array}
+
+% ============================================================================
+% Custom commands (add project-specific commands here)
+% ============================================================================
+\newcommand{\todo}[1]{{\color{red}TODO: #1}}
+
+% ============================================================================
+% Title
+% ============================================================================
+\title{Your Paper Title Here}
+
+% ============================================================================
+% Authors
+% ============================================================================
+\author[1]{First Author}
+\author[1,\textdagger]{Second Author}
+\author[2]{Third Author}
+
+\affiliation[1]{First Affiliation}
+\affiliation[2]{Second Affiliation}
+
+\contribution[\textdagger]{Equal Contribution}
+
+% Team logo (bottom-right of title box, comment out to hide)
+\setteamlogo{figures/team-logo.png}
+
+% ============================================================================
+% Abstract
+% ============================================================================
+\abstract{%
+Your abstract goes here. Briefly describe the problem, your approach, key results, and impact.%
+}
+
+% ============================================================================
+% Metadata (shown at bottom of title box with icons)
+% ============================================================================
+\metadata[\faGlobe\ Project]{\href{https://your-project-page.github.io/}{https://your-project-page.github.io/}}
+\metadata[\raisebox{-1.5pt}{\includegraphics[height=1.03em]{figures/github-logo.pdf}}\ Code]{\href{https://github.com/your-repo}{https://github.com/your-repo}}
+% \metadata[\raisebox{-1.5pt}{\includegraphics[height=0.96em]{figures/hf-logo.pdf}}\ Datasets]{\href{https://huggingface.co/your-datasets}{https://huggingface.co/your-datasets}}
+\metadata[\faEnvelope\ Contact]{\href{mailto:your@email.com}{your@email.com}}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Your introduction here.
+
+\section{Related Work}
+
+Related work here.
+
+\section{Method}
+
+Your method here.
+
+\section{Experiments}
+
+Your experiments here.
+
+\section{Conclusion}
+
+Your conclusion here.
+
+% ============================================================================
+% References
+% ============================================================================
+\bibliography{references}
+
+% ============================================================================
+% Appendix (uncomment if needed)
+% ============================================================================
+% \appendix
+% \section{Additional Results}
+
+\end{document}
