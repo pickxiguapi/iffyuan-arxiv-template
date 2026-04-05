@@ -215,7 +215,7 @@
 \newcommand\contribution[2][]{\iyyuan@addtolist[#1]{#2}{\contributionlist}{\contributionformat}{, }}
 
 \newcommand\metadatalist{}
-\newcommand\metadataformat[2][]{{\small {\sffamily \bfseries #1:} #2}}
+\newcommand\metadataformat[2][]{\ifstrempty{#2}{{\small {\sffamily \bfseries #1}}}{{\small {\sffamily \bfseries #1:} #2}}}
 \newcommand\metadata[2][]{\iyyuan@addtolist[#1]{#2}{\metadatalist}{\metadataformat}{\par}}
 
 \renewcommand{\abstract}[1]{\def\abstractlist{{\color{xiaoxifg} #1}}}
